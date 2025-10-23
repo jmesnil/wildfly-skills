@@ -37,7 +37,7 @@ Ask the user for the following information:
 
 3. **Server version**:
    - Default: Latest WildFly version
-   - Allow user to specify a specific version
+   - Ask the user if they want to use the latest WildFly version or a specific version
 
 4. **Layers & Add-ons**: (Optional)
    - First, use wildfly-glow to scan the deployment by running `wildfly-glow scan -s {deploymentPath}`
@@ -89,7 +89,7 @@ Inform the user:
 2. Application URL: `http://localhost:8080/{context-root}`
 5. Management interface (if enabled): `http://localhost:9990`
 
-### Step 7: Reproduce the execution (optional)
+### Step 7: Reproduce the execution
 
 Propose to the user to create a `code.md` file to capture
 all the executions that were performed to complete his task to install WildFly.
