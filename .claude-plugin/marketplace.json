@@ -1,0 +1,22 @@
+{
+  "name": "jmesnil-agent-skills",
+  "owner": {
+    "name": "Jeff Mesnil",
+    "email": "jmesnil@ibm.com"
+  },
+  "metadata": {
+    "description": "WildFly Skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wildfly-skills",
+      "description": "Collection of skills to use with WildFly",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./wildfly-install"
+      ]
+    }
+  ]
+}
